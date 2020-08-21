@@ -16,7 +16,7 @@ class ForwardMerge
     @line = line
   end
 end
-
+https://github.com/spring-projects/spring-boot.git
 def find_forward_merge(message_file)
   $log.debug "Searching for for forward merge"
   rev=`git rev-parse -q --verify MERGE_HEAD`.strip
